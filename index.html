@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet's Care Clinic & Diagnostic Center - Services & Pricing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f9ff; /* Light blue background for a calming feel */
+        }
+        .service-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .header-title {
+            color: #0077cc; /* A friendly, professional blue */
+        }
+        .price-tag {
+            background-color: #10b981; /* Emerald green for prices */
+            color: white;
+        }
+        .contact-button {
+            background-color: #0ea5e9; /* Sky blue */
+        }
+        .contact-button:hover {
+            background-color: #0284c7; /* Darker sky blue */
+        }
+        .facebook-button {
+            background-color: #1877f2; /* Facebook blue */
+        }
+        .facebook-button:hover {
+            background-color: #166fe5; /* Darker Facebook blue */
+        }
+        .section-title {
+            border-bottom: 2px solid #0ea5e9; /* Sky blue underline for section titles */
+            padding-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-white shadow-lg">
+        <div class="container mx-auto px-4 sm:px-6 py-10 text-center">
+            <div class="text-5xl header-title mb-4">
+                <i class="fas fa-paw"></i>
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-bold header-title">Pet's Care Clinic & Diagnostic Center</h1>
+            <p class="mt-4 text-lg text-gray-600">Your Trusted Partner in Pet Health. Quality care at affordable prices.</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 py-12">
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-700 mb-8 text-center section-title">Our Core Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <div class="bg-white rounded-xl shadow-lg p-6 service-card">
+                    <div class="flex items-center mb-4">
+                        <div class="p-3 rounded-full bg-sky-100 text-sky-600 mr-4">
+                            <i class="fas fa-stethoscope fa-2x"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-sky-700">Health Checkup</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Comprehensive health examination for your beloved pet to ensure their well-being.</p>
+                    <div class="text-right">
+                        <span class="price-tag text-xl font-bold py-2 px-4 rounded-md">600 BDT</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 service-card">
+                    <div class="flex items-center mb-4">
+                        <div class="p-3 rounded-full bg-teal-100 text-teal-600 mr-4">
+                            <i class="fas fa-pills fa-2x"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-teal-700">De-worming</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Effective de-worming treatment to protect your pet from internal parasites.</p>
+                    <div class="text-right">
+                        <span class="price-tag text-xl font-bold py-2 px-4 rounded-md">350 BDT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-700 mb-8 text-center section-title">Vaccination</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-6 service-card">
+                    <div class="flex items-center mb-4">
+                        <div class="p-3 rounded-full bg-purple-100 text-purple-600 mr-4">
+                             <i class="fas fa-cat fa-2x"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-purple-700">Cat Flu Vaccine</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Essential protection for your feline friends against common flu viruses.</p>
+                    <div class="text-right">
+                        <span class="price-tag text-xl font-bold py-2 px-4 rounded-md">1500 BDT</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 service-card">
+                     <div class="flex items-center mb-4">
+                        <div class="p-3 rounded-full bg-orange-100 text-orange-600 mr-4">
+                            <i class="fas fa-dog fa-2x"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-orange-700">Dog Parvo Vaccine</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Crucial parvovirus vaccination to safeguard your canine companion's health.</p>
+                    <div class="text-right">
+                        <span class="price-tag text-xl font-bold py-2 px-4 rounded-md">1500 BDT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-700 mb-8 text-center section-title">Grooming</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-6 service-card">
+                    <div class="flex items-center mb-4">
+                        <div class="p-3 rounded-full bg-pink-100 text-pink-600 mr-4">
+                            <i class="fas fa-shower fa-2x"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-pink-700">Basic Grooming</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Includes bath, brush, nail trim, and ear cleaning for a fresh and happy pet.</p>
+                    <div class="text-right">
+                        <span class="price-tag text-xl font-bold py-2 px-4 rounded-md">400 BDT</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 service-card">
+                    <div class="flex items-center mb-4">
+                        <div class="p-3 rounded-full bg-indigo-100 text-indigo-600 mr-4">
+                           <i class="fas fa-cut fa-2x"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-indigo-700">Full Grooming</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">All features of Basic Grooming plus haircut and styling according to breed standards or owner preference.</p>
+                    <div class="text-right">
+                        <span class="price-tag text-xl font-bold py-2 px-4 rounded-md">1200 BDT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-700 mb-8 text-center section-title">Surgical Procedures</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-6 service-card">
+                    <div class="flex items-center mb-4">
+                        <div class="p-3 rounded-full bg-red-100 text-red-600 mr-4">
+                            <i class="fas fa-mars fa-2x"></i> </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-red-700">Neuter (Male)</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Safe and common surgical procedure for male pets to prevent reproduction and offer health benefits.</p>
+                    <div class="text-right">
+                        <span class="price-tag text-xl font-bold py-2 px-4 rounded-md">2500 BDT</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 service-card">
+                    <div class="flex items-center mb-4">
+                        <div class="p-3 rounded-full bg-rose-100 text-rose-600 mr-4">
+                             <i class="fas fa-venus fa-2x"></i> </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-rose-700">Spay (Female)</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Standard surgical procedure for female pets, preventing unwanted litters and promoting long-term health.</p>
+                    <div class="text-right">
+                        <span class="price-tag text-xl font-bold py-2 px-4 rounded-md">3500 BDT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-16 bg-gradient-to-r from-sky-500 to-indigo-500 text-white rounded-xl shadow-xl p-8 sm:p-12 text-center">
+            <h3 class="text-3xl font-bold mb-4">Ready to Book an Appointment?</h3>
+            <p class="text-lg mb-8">
+                We are here to help your furry friends stay healthy and happy. Contact us today!
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="tel:01999727389" class="contact-button text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300 text-lg inline-flex items-center shadow-md hover:shadow-lg">
+                    <i class="fas fa-phone-alt mr-2"></i> Call: 01999-727389
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61565348671946" target="_blank" rel="noopener noreferrer" class="facebook-button text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300 text-lg inline-flex items-center shadow-md hover:shadow-lg">
+                    <i class="fab fa-facebook-f mr-2"></i> Visit us on Facebook
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 mt-16">
+        <div class="container mx-auto px-4 sm:px-6 py-10 text-center">
+            <div class="mb-4">
+                <p class="font-semibold text-lg">Pet's Care Clinic & Diagnostic Center</p>
+                <p>Contact: <a href="tel:01999727389" class="hover:text-sky-400">01999-727389</a></p>
+                <p><a href="https://www.facebook.com/profile.php?id=61565348671946" target="_blank" rel="noopener noreferrer" class="hover:text-sky-400">Find us on Facebook</a></p>
+            </div>
+            <p>&copy; <span id="currentYear"></span> Pet's Care Clinic & Diagnostic Center. All rights reserved.</p>
+            <p class="text-sm mt-1">Designed with <i class="fas fa-heart text-red-500"></i> and care</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
